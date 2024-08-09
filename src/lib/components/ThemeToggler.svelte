@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Moon, Sun } from 'lucide-svelte';
-	import { Button } from './ui/button';
 	import { toggleMode } from 'mode-watcher';
+	import { Button } from './ui/button';
 </script>
 
 <Button on:click={toggleMode} variant="link" size="icon">

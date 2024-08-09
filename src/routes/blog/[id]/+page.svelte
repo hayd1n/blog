@@ -1,17 +1,16 @@
 <script lang="ts">
-	import type { PageData } from './$types';
 	import SvelteMarkdown from 'svelte-markdown';
-	import Header from './Header.svelte';
 	import { APP_NAME } from '$lib/app';
-	import Comments from './Comments.svelte';
 	import { Separator } from '$lib/components/ui/separator';
+	import type { PageData } from './$types';
+	import Comments from './Comments.svelte';
+	import Header from './Header.svelte';
 	import Tags from './Tags.svelte';
 
 	export let data: PageData;
 
 	$: frontMatter = data.frontMatter;
 	$: content = data.content;
-	$: posts = data.posts;
 </script>
 
 <svelte:head>

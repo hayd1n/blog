@@ -1,6 +1,6 @@
-import type { LayoutLoad } from './$types';
-import { defaultLocale, loadTranslations, locales } from '$lib/translations';
 import { GISCUS_CONFIG } from '$lib/app';
+import { defaultLocale, loadTranslations, locales } from '$lib/translations';
+import type { LayoutLoad } from './$types';
 
 const giscusLocales = [
 	'ar',

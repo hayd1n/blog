@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { AUTHOR_GITHUB, AUTHOR_NAME, LICENSE_URL, LICENSE } from '$lib/app';
 	import { Github } from 'lucide-svelte';
+	import { AUTHOR_GITHUB, AUTHOR_NAME, LICENSE, LICENSE_URL } from '$lib/app';
 
 	const date = new Date();
 	const year = date.getFullYear();

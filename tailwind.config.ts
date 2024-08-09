@@ -1,6 +1,6 @@
-import { fontFamily } from 'tailwindcss/defaultTheme';
-import type { Config } from 'tailwindcss';
 import typographyPlugin from '@tailwindcss/typography';
+import type { Config } from 'tailwindcss';
+import { fontFamily } from 'tailwindcss/defaultTheme';
 
 const config: Config = {
 	darkMode: ['class'],

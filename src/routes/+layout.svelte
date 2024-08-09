@@ -1,9 +1,9 @@
 <script lang="ts">
 	import '../app.pcss';
 	import { ModeWatcher } from 'mode-watcher';
+	import { fly } from 'svelte/transition';
 	import Footer from './Footer.svelte';
 	import Navbar from './Navbar.svelte';
-	import { fly } from 'svelte/transition';
 
 	const animationDuration = 400;
 

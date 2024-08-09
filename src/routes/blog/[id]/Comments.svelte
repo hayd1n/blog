@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { APP_NAME, GISCUS_CONFIG } from '$lib/app';
 	import Giscus, { type AvailableLanguage } from '@giscus/svelte';
 	import { mode } from 'mode-watcher';
+	import { GISCUS_CONFIG } from '$lib/app';
 
 	export let lang: AvailableLanguage | undefined = undefined;
 </script>

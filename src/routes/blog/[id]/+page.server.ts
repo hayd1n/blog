@@ -1,8 +1,8 @@
 import fs from 'node:fs/promises';
-import type { EntryGenerator, PageServerLoad } from './$types';
 import path from 'node:path';
-import { getAllPosts, type PostFrontMatter } from '$lib/blog';
 import * as toml from 'js-toml';
+import { getAllPosts, type PostFrontMatter } from '$lib/blog';
+import type { EntryGenerator, PageServerLoad } from './$types';
 
 export const entries: EntryGenerator = async () => {
 	const posts = await getAllPosts();
