@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/app';
+	import PostTitle from '$lib/components/PostTitle.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -6,8 +8,14 @@
 	$: posts = data.posts;
 </script>
 
-<ul>
+<svelte:head>
+	<title>{APP_NAME}</title>
+</svelte:head>
+
+<div class="flex flex-col gap-2">
 	{#each posts as p}
-		<li><a href="/blog/{p}">{p}</a></li>
+		<a href="/blog/{p}" class="w-fit">
+			<PostTitle size="sm">{p}</PostTitle>
+		</a>
 	{/each}
-</ul>
+</div>

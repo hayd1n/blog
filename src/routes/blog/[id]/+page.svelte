@@ -1,22 +1,24 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import SvelteMarkdown from 'svelte-markdown';
+	import Header from './Header.svelte';
+	import { APP_NAME } from '$lib/app';
 
 	export let data: PageData;
 
-	$: post = data.post;
+	$: frontMatter = data.frontMatter;
+	$: content = data.content;
 	$: posts = data.posts;
 </script>
 
-<div>
-	<SvelteMarkdown source={post} />
-</div>
+<svelte:head>
+	<title>{frontMatter.title} - {APP_NAME}</title>
+</svelte:head>
 
-<hr class="my-4" />
+<section>
+	<Header title={frontMatter.title} />
 
-<h2>Previous Posts</h2>
-<ul>
-	{#each posts as p}
-		<li><a href="/blog/{p}">{p}</a></li>
-	{/each}
-</ul>
+	<article class="prose">
+		<SvelteMarkdown source={content} />
+	</article>
+</section>

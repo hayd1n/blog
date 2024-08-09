@@ -1,0 +1,14 @@
+<script lang="ts">
+	export let border = true;
+</script>
+
+<header
+	class="fixed top-0 z-40 flex h-fit w-full flex-row flex-nowrap items-center justify-center border-b bg-background bg-opacity-70 px-2 py-1 backdrop-blur transition-colors {border
+		? 'border-opacity-100'
+		: 'border-opacity-0'}"
+	{...$$restProps}
+>
+	<div class="flex w-full flex-row flex-nowrap items-center md:w-10/12 lg:w-8/12">
+		<slot />
+	</div>
+</header>

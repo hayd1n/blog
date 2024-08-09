@@ -1,6 +1,14 @@
 import path from 'path';
 import fs from 'node:fs/promises';
 
+export interface PostFrontMatter {
+	title: string;
+	date: Date;
+	tags: string[];
+	categories: string[];
+	excerpt: string;
+}
+
 export async function getAllPosts() {
 	const projectRoot = process.cwd();
 	const postsPath = path.join(projectRoot, 'src/lib/blog/posts');
