@@ -2,6 +2,8 @@
 
 > 🚧 WIP
 
+![screenshot](https://github.com/user-attachments/assets/0714daa1-5253-4aac-9274-d50f8898f950)
+
 ## Requirement
 
 - [Bun](https://bun.sh/)
