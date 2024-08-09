@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { AUTHOR_GITHUB, AUTHOR_NAME } from '$lib/app';
+	import { AUTHOR_GITHUB, AUTHOR_NAME, LICENSE_URL, LICENSE } from '$lib/app';
 	import { Github } from 'lucide-svelte';
 
 	const date = new Date();
@@ -8,7 +8,7 @@
 
 <footer class="flex flex-col flex-nowrap gap-1 text-sm text-muted-foreground">
 	<p class="footer-section">
-		<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
+		<a href={LICENSE_URL} target="_blank">{LICENSE}</a>
 		© {year}
 
 		<a href={AUTHOR_GITHUB} target="_blank">{AUTHOR_NAME}</a>
