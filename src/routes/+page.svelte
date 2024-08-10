@@ -12,7 +12,7 @@
 	<title>{APP_NAME}</title>
 </svelte:head>
 
-<div class="flex flex-col gap-2">
+<div class="flex w-full flex-col items-start gap-2">
 	{#each posts as p}
 		<a href="/blog/{p}" class="w-fit">
 			<PostTitle size="sm">{p}</PostTitle>

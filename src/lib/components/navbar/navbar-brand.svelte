@@ -2,7 +2,7 @@
 	export let href: string | undefined = undefined;
 </script>
 
-<div class="flex">
+<div class="flex font-bold" {...$$restProps}>
 	<a {href}>
 		<slot />
 	</a>
