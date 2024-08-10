@@ -108,12 +108,14 @@ Use the `printf()` function.
 
 在需要高亮的程式碼區塊的前一行及後一行使用三個反引號，同時**第一行反引號後面表示程式碼區塊所使用的語言**，如下：
 
-```java
-// FileName: HelloWorld.java
-public class HelloWorld {
- // Java 入口程序，程式從此入口
- public static void main(String[] args) {
- System.out.println("Hello,World!"); // 列印一條語句到控制台
- }
+```rust
+// 這是一個註釋，編譯器會忽略它。
+
+// 這是主函數。
+fn main() {
+    // 這裡的語句在編譯後的二進制文件被調用時執行。
+
+    // 將文本打印到控制台。
+    println!("Hello World!");
 }
 ```
