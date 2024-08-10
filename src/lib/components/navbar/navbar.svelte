@@ -4,7 +4,7 @@
 
 <header
 	class="fixed top-0 z-40 flex h-fit w-full flex-row flex-nowrap items-center justify-center border-b bg-background bg-opacity-70 px-2 py-1 backdrop-blur transition-colors {border
-		? 'border-opacity-100'
+		? 'border-opacity-80'
 		: 'border-opacity-0'}"
 	{...$$restProps}
 >

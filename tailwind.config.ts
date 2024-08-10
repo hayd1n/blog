@@ -58,6 +58,16 @@ const config: Config = {
 			},
 			fontFamily: {
 				sans: [...fontFamily.sans]
+			},
+			typography: {
+				DEFAULT: {
+					css: {
+						pre: {
+							color: '#24292e',
+							backgroundColor: 'rgb(246, 248, 250)'
+						}
+					}
+				}
 			}
 		}
 	},
