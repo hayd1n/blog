@@ -26,7 +26,7 @@
 	<Navbar.Brand href="/">{APP_NAME}</Navbar.Brand>
 	<Navbar.Space />
 	<Navbar.Items bind:open={navbarOpen}>
-		{#each menu as { name, href }}
+		{#each menu as { name, href } (name)}
 			<Navbar.Item {href} on:click={handleItemClick}>{$t(`page.${name}`)}</Navbar.Item>
 		{/each}
 	</Navbar.Items>

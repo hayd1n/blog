@@ -80,7 +80,7 @@
 	{:else}
 		<Highlight language={plaintext} code={text} class="hljs" />
 	{/if}
-	<Button variant="ghost" size="icon" class="absolute right-2 top-2" on:click={handleCopy}>
+	<Button variant="ghost" size="icon" class="absolute top-2 right-2" on:click={handleCopy}>
 		{#if copied}
 			<Check class="h-4 w-4" />
 		{:else}

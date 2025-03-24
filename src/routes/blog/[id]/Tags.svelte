@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex flex-wrap gap-2">
-	{#each tags as tag}
+	{#each tags as tag (tag)}
 		<!-- <Badge variant="secondary" href={`/tags/${tag}`}>{tag}</Badge> -->
 		<Badge variant="secondary">{tag}</Badge>
 	{/each}

@@ -8,6 +8,6 @@
 	};
 </script>
 
-<h1 class="{sizes[size]} font-bold leading-snug" bind:this={handle}>
+<h1 class="{sizes[size]} leading-snug font-bold" bind:this={handle}>
 	<slot />
 </h1>

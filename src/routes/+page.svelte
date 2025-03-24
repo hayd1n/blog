@@ -13,7 +13,7 @@
 </svelte:head>
 
 <div class="flex w-full flex-col items-start gap-2">
-	{#each posts as p}
+	{#each posts as p (p)}
 		<a href="/blog/{p}" class="w-fit">
 			<PostTitle size="sm">{p}</PostTitle>
 		</a>
