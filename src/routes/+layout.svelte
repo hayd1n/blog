@@ -23,7 +23,7 @@
 		</main>
 
 		<!-- Space -->
-		<div class="flex grow" />
+		<div class="flex grow"></div>
 
 		<Footer />
 	</div>

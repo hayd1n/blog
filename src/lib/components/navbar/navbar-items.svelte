@@ -24,7 +24,7 @@
 		class="block-overflow fixed left-0 top-11 z-20 h-screen w-screen bg-background bg-opacity-80"
 		on:click={handleOverlayClick}
 		transition:fade={{ duration: 150 }}
-	/>
+	></div>
 {/if}
 
 <style lang="postcss">

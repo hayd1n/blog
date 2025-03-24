@@ -1,1 +1,1 @@
-<div class="flex grow" {...$$restProps} />
+<div class="flex grow" {...$$restProps}></div>
