@@ -9,7 +9,7 @@
 </script>
 
 <nav
-	class="bg-background fixed top-0 left-0 z-40 mt-11 flex w-full flex-col flex-nowrap items-start gap-1 {open
+	class="fixed left-0 top-0 z-40 mt-11 flex w-full flex-col flex-nowrap items-start gap-1 bg-background {open
 		? 'h-fit border-y py-4'
 		: 'h-0 py-0'} overflow-hidden transition-all sm:static sm:mt-0 sm:h-fit sm:w-fit sm:flex-row sm:overflow-auto sm:border-none sm:bg-none sm:py-0 sm:pt-0 sm:transition-none"
 	{...$$restProps}
@@ -21,7 +21,7 @@
 	<!-- Overlay -->
 	<div
 		aria-hidden={true}
-		class="block-overflow bg-background bg-opacity-80 fixed top-11 left-0 z-20 h-screen w-screen"
+		class="block-overflow fixed left-0 top-11 z-20 h-screen w-screen bg-background bg-opacity-80"
 		on:click={handleOverlayClick}
 		transition:fade={{ duration: 150 }}
 	/>

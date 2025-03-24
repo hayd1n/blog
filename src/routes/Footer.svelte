@@ -6,7 +6,7 @@
 	const year = date.getFullYear();
 </script>
 
-<footer class="text-muted-foreground flex flex-col flex-nowrap gap-1 py-6 text-sm">
+<footer class="flex flex-col flex-nowrap gap-1 py-6 text-sm text-muted-foreground">
 	<p class="footer-section">
 		<a href={LICENSE_URL} target="_blank">{LICENSE}</a>
 		© {year}
