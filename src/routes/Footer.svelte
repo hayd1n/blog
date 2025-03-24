@@ -8,14 +8,15 @@
 
 <footer class="flex flex-col flex-nowrap gap-1 py-6 text-sm text-muted-foreground">
 	<p class="footer-section">
+		<a href="https://github.com/hayd1n/blog" target="_blank"
+			><Github class="h-4 w-4" /> hayd1n/blog</a
+		>
+	</p>
+	<p class="footer-section">
 		<a href={LICENSE_URL} target="_blank">{LICENSE}</a>
 		© {year}
 
 		<a href={AUTHOR_GITHUB} target="_blank">{AUTHOR_NAME}</a>
-	</p>
-	<p class="footer-section">
-		Powered by
-		<a href="https://github.com/CRT-HAO/blog" target="_blank"><Github class="h-4 w-4" /> blog</a>
 	</p>
 </footer>
 

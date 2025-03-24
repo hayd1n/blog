@@ -9,12 +9,12 @@ import type {
 export const APP_NAME = "Hayden's Blog";
 export const AUTHOR_NAME = 'Hayden Chang';
 export const AUTHOR_EMAIL = 'm831718@gmail.com';
-export const AUTHOR_GITHUB = 'https://github.com/CRT-HAO';
+export const AUTHOR_GITHUB = 'https://github.com/hayd1n';
 export const LICENSE = 'CC BY-NC-SA 4.0';
 export const LICENSE_URL = 'https://creativecommons.org/licenses/by-nc-sa/4.0/';
 
 export const GISCUS_CONFIG: GiscusConfig = {
-	repo: 'CRT-HAO/blog',
+	repo: 'hayd1n/blog',
 	repoId: 'R_kgDOMhGbgg',
 	category: 'Announcements',
 	categoryId: 'DIC_kwDOMhGbgs4ChhLk',
