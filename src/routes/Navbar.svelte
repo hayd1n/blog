@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { page } from '$app/state';
 	import { APP_NAME } from '$lib/app';
 	import * as Navbar from '$lib/components/navbar';
 	import ThemeToggler from '$lib/components/ThemeToggler.svelte';
@@ -23,11 +24,18 @@
 <svelte:window bind:scrollY />
 
 <Navbar.Root border={scrollY > 0}>
-	<Navbar.Brand href="/">{APP_NAME}</Navbar.Brand>
+	<Navbar.Brand href="/">
+		{APP_NAME}
+	</Navbar.Brand>
 	<Navbar.Space />
 	<Navbar.Items bind:open={navbarOpen}>
 		{#each menu as { name, href } (name)}
-			<Navbar.Item {href} on:click={handleItemClick}>{$t(`page.${name}`)}</Navbar.Item>
+			<Navbar.Item
+				{href}
+				current={(href === '/' && page.url.pathname === '/') ||
+					(href !== '/' && page.url.pathname.startsWith(href))}
+				on:click={handleItemClick}>{$t(`page.${name}`)}</Navbar.Item
+			>
 		{/each}
 	</Navbar.Items>
 	<ThemeToggler />

@@ -53,5 +53,8 @@
 		"mode-watcher": "^0.5.1",
 		"tailwind-merge": "^3.0.2",
 		"tailwind-variants": "^1.0.0"
+	},
+	"dependencies": {
+		"@sveltejs/enhanced-img": "^0.4.4"
 	}
 }

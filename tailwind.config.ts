@@ -49,7 +49,8 @@ const config: Config = {
 					DEFAULT: 'hsl(var(--card) / <alpha-value>)',
 					foreground: 'hsl(var(--card-foreground) / <alpha-value>)'
 				},
-				link: 'hsl(var(--link) / <alpha-value>)'
+				link: 'hsl(var(--link) / <alpha-value>)',
+				codeblock: 'hsl(var(--codeblock) / <alpha-value>)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
