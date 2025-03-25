@@ -18,7 +18,7 @@
 		in:fly={{ y: 10, duration: animationDuration, delay: animationDuration }}
 		out:fly={{ y: -5, duration: animationDuration }}
 	>
-		<main class="flex w-full flex-col md:w-10/12 lg:w-fit lg:min-w-[600px]">
+		<main class="flex w-full flex-col items-center md:w-10/12 lg:w-fit lg:min-w-[600px]">
 			<slot />
 		</main>
 

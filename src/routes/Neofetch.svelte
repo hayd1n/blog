@@ -11,7 +11,7 @@
 		Age: age,
 		OS: 'macOS, Arch Linux',
 		Shell: 'fish, zsh, bash',
-		Editor: 'VSCode, Zed, Helix',
+		Editor: 'VS Code, Zed, Helix',
 		'Programming Languages': 'TypeScript, Rust, Go, C++',
 		Frameworks: 'SvelteKit, Express, Rocket',
 		Tools: 'GitHub Actions, Docker, Bun, Cargo',
@@ -19,6 +19,7 @@
 		Timezone: 'UTC+8 (Taipei)',
 		Education: 'National Taiwan University of Science and Technology',
 		Interests: 'Web Development, Cybersecurity, AI, Embedded Systems',
+		Hobbies: 'Motorcycle 🚴, Photography 📷, Filmmaking 🎬',
 		Moto: 'KTM 390 Duke 🏍️'
 	};
 
@@ -48,9 +49,9 @@
 	}
 </script>
 
-<div class="flex w-full flex-col gap-10 sm:flex-row sm:gap-20 sm:p-6">
-	<div class="shrink-0">
-		<enhanced:img src={portrait} alt="Portrait of Hayden" width="180" />
+<div class="flex flex-col gap-4 sm:flex-row sm:gap-20 sm:p-6">
+	<div class="flex shrink-0 justify-start">
+		<enhanced:img src={portrait} alt="Portrait of Hayden" width="160" />
 	</div>
 	<div class="font-mono">
 		<h1 class="font-bold">
