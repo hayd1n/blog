@@ -46,7 +46,9 @@ I tend to visualize ideas before putting them into words and bring them to life 
 	<title>{APP_NAME}</title>
 </svelte:head>
 
-<article class="flex w-full flex-col gap-10 py-4 sm:gap-10 sm:py-10 md:w-10/12 lg:w-8/12">
+<article
+	class="flex w-full flex-col gap-10 py-4 sm:gap-10 sm:py-10 md:w-10/12 lg:w-8/12 2xl:w-6/12"
+>
 	<header class="flex justify-center">
 		<Neofetch />
 	</header>
