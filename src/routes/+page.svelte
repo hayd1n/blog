@@ -35,10 +35,10 @@ I tend to visualize ideas before putting them into words and bring them to life 
 | 49屆中區技能競賽 移動機器人職類                              | Silver Medal 第二名           |`;
 
 	const workExperienceEn = `
-| Company                      | Position                     | Time        |
-| ---------------------------- | ---------------------------- | ----------- |
-| ORing Industrial Networking  | PSO Assistant Engineer       | 2025 ~ Now  |
-| ReMiSYS Technology Co., Ltd. | Software / Firmware Engineer | 2023 ~ 2024 |
+| Company                     | Position                     | Time        |
+| --------------------------- | ---------------------------- | ----------- |
+| ORing Industrial Networking | PSO Assistant Engineer       | 2025 ~ Now  |
+| ReMiSYS Technology          | Software / Firmware Engineer | 2023 ~ 2024 |
 `;
 </script>
 
