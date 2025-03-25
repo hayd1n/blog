@@ -17,7 +17,7 @@
 	<title>{frontMatter.title} - {APP_NAME}</title>
 </svelte:head>
 
-<section>
+<section class="w-full">
 	<Header title={frontMatter.title} />
 
 	<article class="prose dark:prose-invert">
